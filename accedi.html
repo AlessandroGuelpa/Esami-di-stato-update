@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Accedi</title>
+    <link rel="stylesheet" href="static/lr.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="media/fav.ico">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <style>
+        @media only screen and (max-width: 600px) {
+            .main {
+                width: 70%;
+                overflow: hidden;
+                margin: auto;
+                margin: 20% 0% 20%;
+                background: #23463f;
+                border-radius: 15px;
+                padding-top: 1%;
+                padding-bottom: 2%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="main">
+            <img src="media/icon.png" width="50">
+            <h2>LOG IN</h2>
+            <form name="login" method="post" action="php/accedi.php">
+                <h3>Username</h3>
+                <input type="text" name="username" placeholder="username">
+                <h3>Password</h3>
+                <input type="password" name="password" placeholder="Password">
+                <br>
+                <br>
+                <input type="submit" value="Log In">
+                <br><br>
+            </form>
+            <a style="color:white" href="registrati.html">Registrati qui!</a><br><br>
+            <a style="color:white" href="index.html">Home</a>
+        </div>
+    </center>
+</body>
+
+</html>
